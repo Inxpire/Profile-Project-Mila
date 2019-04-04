@@ -1,0 +1,320 @@
+/* -------------------------------------------
+GLOBAL STYLES 
+----------------------------------------------*/
+
+/* Color Pallette 
+ dark-grey: #2f3030
+
+
+
+*/
+
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	display: border-box;
+}
+
+html {
+
+}
+
+
+body {
+
+	text-decoration: none;
+	font-family: sans-serif;
+	color: grey;
+	line-height: 1.2rem;
+}
+
+
+.container {
+	max-width: 1920px;
+ 	width: 100%;
+ 	margin: auto;
+ 	text-align: center;
+ 	position: relative;
+}
+
+h2, h3, h4, h5, h6 {
+	text-align: center;
+	padding: 5% 2%;
+	margin: auto 10px;
+	color: #474a4f;
+}
+
+a {
+	text-decoration: none;
+	color:#2f3030;
+	text-align: left;
+	padding: 10px 14px;
+	background-color: white;
+	opacity: 0.4
+}
+
+a:hover {
+	color: #474a4f;
+	opacity: 0.8;
+}
+
+
+li {
+	padding: 5px 10px;
+	list-style-type: none;
+
+}
+
+ul {
+
+	text-decoration: none;
+	padding-bottom: 20px;
+}
+
+.background-gradient,  .basic-info_table td ,form{
+
+	background-color: #edf0f4;
+
+	
+
+}
+
+
+
+/* Header Styles-----------------------------
+--------------------------------------------- */
+
+header {
+	/*padding: 5% 2%;*/
+	text-align: center;
+	position: relative;
+	max-width: 100%;
+	height: 768px;
+	opacity: 0.7;
+
+	
+
+}
+
+.bg-img{
+	background-image: url("images/nordwood-themes-166423-unsplash.jpg");
+	height: 768px; 
+  	background-position: center; 
+  	background-repeat: no-repeat; 
+  	background-size: cover;
+  	background-attachment: fixed;
+} 
+
+
+h1 {
+	margin:17% auto 5%;
+	font-size: 10rem;
+	color: #2f3030;
+}
+
+/* Nav Styles--------------------------------
+--------------------------------------------- */
+
+.primary-nav {
+	/*background-color: grey;*/
+	/*opacity: 0.4;*/
+
+}
+	
+.primary-ul {
+	padding: 2% 2%;
+	max-width: 80%;
+	width: 100%;
+	margin: auto;
+	
+}
+
+.primary-ul li{
+	display: inline-block;
+
+}
+
+
+
+/* Main Styles-------------------------------
+--------------------------------------------- */
+
+main {
+	padding: 5% 2%;
+
+}
+
+.profile-img {
+	border-radius: 50%;
+}
+
+h2 {
+
+	font-size: 2rem;
+
+}
+
+
+/* articles and sections */
+
+article {
+	max-width: 80%;
+	padding: 5% auto;
+	margin: 2% auto;
+}
+
+
+section {
+
+	margin: 10% auto;
+	padding: 2% 2%;
+	/*background-color: #edf0f4;*/
+	max-width: 60%;
+
+	background: #bfbfbf; /* Old browsers */
+	background: -moz-linear-gradient(left, #bfbfbf 3%, #e29f5d 81%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #bfbfbf 3%,#e29f5d 81%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #bfbfbf 3%,#e29f5d 81%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfbfbf', endColorstr='#e29f5d',GradientType=1 ); /* IE6-9 */
+
+
+
+}	
+
+
+/* table section */
+
+.basic-info_table {
+
+	max-width: 500px;
+	width: 100%;
+	text-align: center;
+	margin: 4% auto;
+
+}
+
+
+.basic-info_table td {
+	
+	text-align: left;
+	color: #474a4f;
+	padding: 3% 2%;
+}
+
+.basic-info_table th {
+	background-color: #2f3030;
+	padding: 3% 2%;
+
+}
+
+
+
+
+
+/* request form */
+
+
+form {
+	padding: 8%;
+	text-align: left;
+	color: #474a4f;
+}
+
+.request-q-form {
+
+}
+
+input {
+	display: inline-block;
+
+
+
+}
+
+.form-section {
+	padding: 5% 1%%;
+	margin: 5% auto;
+}
+
+ form .form-details {
+	text-align: center;
+}
+
+.form-details input {
+	max-width: 200px;
+	width: 100%;
+	min-height: 30px;
+	padding-left: 5px;
+	text-align: center;
+	
+}
+
+form .form-scope {
+		
+	text-align: left;
+}
+
+form .form-budget{
+
+	text-align: left;
+}
+
+form .form-description{
+
+	text-align: center;
+}
+
+form .form-upload{
+
+	text-align: center;
+}
+
+.form-upload input  {
+
+	
+}
+
+form .submit-button{
+
+	text-align: center;
+
+}
+
+
+
+
+
+/* Footer Styles-------------------------------
+--------------------------------------------- */
+
+
+footer {
+	padding: 5% 2%;
+	background-attachment;
+}
+
+.footer-tc {
+	display: inline-block;
+	max-width:20%;
+	width:100%;
+	float: left;
+
+}
+
+.footer-c {
+	display: inline-block;
+	max-width: 20%;
+	width: 100%;
+	float: right;
+}
+
+ a.plain-link {
+	background: white;
+}
+
+
+.plain-link:hover {
+
+}
